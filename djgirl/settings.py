@@ -25,7 +25,7 @@ SECRET_KEY = '7v@ok29)8&=en**9*sao41du_3=t^)***qha*6_2-$wzbjua52'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','tvio.pythonanywhare.com']
+ALLOWED_HOSTS = ['tvio.pythonanywhare.com','127.0.0.1']
 
 
 # Application definition
