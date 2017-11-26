@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+"""
     'restdemo',
     'rest_framework_swagger',
     'rest_framework',
+"""
 ]
 
 
@@ -124,7 +126,7 @@ USE_TZ = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-
+"""
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'token': {
@@ -139,4 +141,6 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.permissions.AllowAny'
     ],
+
 }
+"""
